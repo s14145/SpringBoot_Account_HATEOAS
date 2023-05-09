@@ -6,6 +6,7 @@ import com.hateoas.entity.Transfer;
 import com.hateoas.exception.APIException;
 import com.hateoas.model.APIReponse;
 import com.hateoas.repository.AccountRepository;
+import com.hateoas.repository.TransferRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -16,6 +17,9 @@ import java.util.Optional;
 
 @Service("TransferService")
 public class TransferServiceImpl implements TransferService {
+
+    @Autowired
+    private TransferRepository transferRepository;
 
     @Autowired
     private AccountRepository accountRepository;
