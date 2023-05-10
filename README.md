@@ -16,22 +16,23 @@ The technologies used in this application:
 
 6. HATEOAS (Hypermedia As The Engine Of Application State)
 
-
-H2 Database URI: http://localhost:6061/h2-console
+7. SSL (Secure Socket Layer)
+##
+H2 Database URI: https://localhost:6061/h2-console
 
 **The REST API endpoints exposed by this application are: **
 
-1. POST Account: http://localhost:6061/api/v1/accounts
+1. POST Account: https://localhost:6061/api/v1/accounts
 
-2. GET Account: http://localhost:6061/api/v1/accounts/1289876287
+2. GET Account: https://localhost:6061/api/v1/accounts/{accountNumber}
 
-3. POST Deposit: http://localhost:6061/api/v1/accounts/deposit
+3. POST Deposit: https://localhost:6061/api/v1/accounts/deposit
 
-4. POST Withdraw: http://localhost:6061/api/v1/accounts/withdraw
+4. POST Withdraw: https://localhost:6061/api/v1/accounts/withdraw
 
-5. POST Transfer: http://localhost:6061/api/v1/accounts/transfer
+5. POST Transfer: https://localhost:6061/api/v1/accounts/transfer
 
-6. DELETE Account: http://localhost:6061/api/v1/accounts/1289876287
+6. DELETE Account: https://localhost:6061/api/v1/accounts/1289876287
 
 
 
